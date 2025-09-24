@@ -44,12 +44,12 @@ O projeto implementa as operações básicas de um **CRUD** (Create, Read, Updat
 
 A URL base para todos os endpoints é `http://localhost:5000`.
 
-| Verbo HTTP | Endpoint              | Descrição                                 | Exemplo de Corpo (Body)                           |
-| :--------- | :-------------------- | :---------------------------------------- | :------------------------------------------------ |
-| `GET`      | `/livros`             | Retorna a lista completa de livros.       | N/A                                               |
-| `GET`      | `/livros/<id>`        | Retorna os dados de um livro específico.  | N/A                                               |
-| `POST`     | `/livros`             | Adiciona um novo livro à lista.           | `{ "id": 4, "título": "...", "autor": "..." }`      |
-| `PUT`      | `/livros/<id>`        | Altera os dados de um livro existente.    | `{ "título": "Novo Título", "autor": "Novo Autor" }` |
-| `DELETE`   | `/livros/<id>`        | **(A ser implementado)** Deleta um livro. | N/A                                               |
+| Verbo HTTP | Endpoint              | Descrição                                 | 
+| :--------- | :-------------------- | :---------------------------------------- | 
+| `GET`      | `/livros`             | Retorna a lista completa de livros.       |                 
+| `GET`      | `/livros/<id>`        | Retorna os dados de um livro específico.  | 
+| `POST`     | `/livros`             | Adiciona um novo livro à lista.           | 
+| `PUT`      | `/livros/<id>`        | Altera os dados de um livro existente.    |
+| `DELETE`   | `/livros/<id>`        |  Deleta um livro.                         |
 
 ---
